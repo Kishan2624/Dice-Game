@@ -21,13 +21,13 @@ const Dice = ({
         </p>
       </div>
       <div className="flex flex-col items-center gap-3">
-        <button
-          onClick={handleResetScore}
-          className="w-44 rounded-md border-2 border-solid border-black bg-white px-4 py-1 text-base font-semibold text-black transition-colors duration-300 ease-in-out hover:border-transparent hover:bg-black hover:font-bold hover:text-white md:w-[180px] md:text-lg lg:w-[220px] lg:px-3 lg:py-[10px] lg:text-xl"
-        >
+        <button onClick={handleResetScore} className="btn-white">
           Reset Score
         </button>
-        <button onClick={handleRuleBtn} className="btn">
+        <button
+          onClick={handleRuleBtn}
+          className={`${showRule ? "btn-white" : "btn-black"}`}
+        >
           Show Rules
         </button>
       </div>
