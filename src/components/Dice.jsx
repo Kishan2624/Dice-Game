@@ -27,10 +27,7 @@ const Dice = ({
         >
           Reset Score
         </button>
-        <button
-          onClick={handleRuleBtn}
-          className="w-44 rounded-md border-2 border-solid border-transparent bg-black px-4 py-1 text-base font-semibold text-white transition-colors duration-300 ease-in-out hover:border-black hover:bg-white hover:font-bold hover:text-black md:w-[180px] md:text-lg lg:w-[220px] lg:px-3 lg:py-[10px] lg:text-xl"
-        >
+        <button onClick={handleRuleBtn} className="btn">
           Show Rules
         </button>
       </div>

@@ -3,7 +3,7 @@ import DiceGameplay from "./components/DiceGameplay";
 import DiceStartingGame from "./components/DiceStartingGame";
 
 function App() {
-  const [startGame, setStartGame] = useState(true);
+  const [startGame, setStartGame] = useState(false);
   const numbers = [1, 2, 3, 4, 5, 6];
   const [selectNumber, setSelectedNumber] = useState(null);
   const [diceNumber, setDiceNumber] = useState(1);
