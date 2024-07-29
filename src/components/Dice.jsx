@@ -28,7 +28,7 @@ const Dice = ({
           onClick={handleRuleBtn}
           className={`${showRule ? "btn-white" : "btn-black"}`}
         >
-          Show Rules
+          {showRule ? "Hide Rules" : "Show Rules"}
         </button>
       </div>
       <div
